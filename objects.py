@@ -22,6 +22,7 @@ class particle:
     def __init__(self,m,posistion,springs):
         self.m = m
         self.posistion = posistion#the posistion of the particle
+        self.springs = springs
 
 
 class spring:
