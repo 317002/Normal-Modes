@@ -24,16 +24,6 @@ class particle:
         self.posistion = posistion#the posistion of the particle
         self.springs = springs
 
-
-class spring:
-    def __init__(self,k,l,orientation,posistion):
-        self.k = k#spring constant
-        self.l = l#lenght of the spring
-        self.orientation = orientation#[x,y,z] Ex: [1,0,0]#unit vectors
-        self.posistion = posistion
-    
-    def get_potential(self,x):
-        return 1/2*(self.k*x**2)
         
 
 
